@@ -3,7 +3,6 @@ import React from "react";
 import { Button } from "../ui/button";
 import { ArrowBigLeftIcon, ArrowDownUp, ArrowRightIcon } from "lucide-react";
 
-
 const Hero = () => {
   return (
     <div className="container mx-auto mt-5">
