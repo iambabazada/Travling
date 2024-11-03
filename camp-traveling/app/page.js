@@ -6,6 +6,7 @@ import Image from "next/image";
 import { useEffect } from "react";
 import 'aos/dist/aos.css';
 import Navbar from "@/components/Navbar/Navbar";
+import Hero from "@/components/Hero/Hero";
 
 export default function Home() {
 
@@ -19,8 +20,12 @@ export default function Home() {
   })
 
   return (
-    <div data-aos="fade-up">
-      <Navbar />
+    <div>
+      <div className="bg-gradient-to-b from-[#E3F7FD]   via-white via-40%">
+        <Navbar />
+        <Hero />
+      </div>
+
     </div>
   );
 }
