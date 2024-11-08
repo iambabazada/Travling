@@ -9,6 +9,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import Hero from "@/components/Hero/Hero";
 import DestinationsCards from "@/components/Cards/DestinationsCards";
 import WhyChoose from "@/components/WhyChoose/WhyChoose";
+import PlanVacation from "@/components/PlanVacation/PlanVacation";
 
 export default function Home() {
 
@@ -23,11 +24,12 @@ export default function Home() {
 
   return (
     <div>
-      <div className="bg-gradient-to-b from-[#E3F7FD]   via-white via-40%">
+      <div className="bg-gradient-to-b from-[#E3F7FD]   via-white via-40% ">
         <Navbar />
         <Hero />
         <DestinationsCards />
         <WhyChoose />
+        <PlanVacation />
       </div>
 
     </div>

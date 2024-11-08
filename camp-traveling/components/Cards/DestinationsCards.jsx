@@ -16,6 +16,24 @@ const DestinationsCards = () => {
       <div>
         <Swiper
           spaceBetween={50}
+          breakpoints={{
+            '@0.00': {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            '@0.75': {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            '@1.00': {
+              slidesPerView: 3,
+              spaceBetween: 40,
+            },
+            '@1.50': {
+              slidesPerView: 4,
+              spaceBetween: 50,
+            },
+          }}
           className="grid grid-cols-4 gap-10 mt-8 w-full"
           slidesPerView={4}
           loop={true} // Sonsuz döngü için loop özelliği

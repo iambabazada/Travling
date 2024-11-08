@@ -8,8 +8,8 @@ import { WHY_CHOOSE_US } from "@/constans";
 
 const WhyChoose = () => {
   return (
-    <div className="min-h-svh container mx-auto mt-12">
-        <div className="grid grid-cols-2 gap-6 items-center" >
+    <div className=" container mx-auto mt-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center" >
             <Image src='/why_choouse_us.png' width={100} data-aos="fade-right" data-aos-delay={300} height={100} layout="responsive" alt="choose_us"/>
             <div className="flex flex-col">
                 <div className="title">
