@@ -7,6 +7,8 @@ import { useEffect } from "react";
 import 'aos/dist/aos.css';
 import Navbar from "@/components/Navbar/Navbar";
 import Hero from "@/components/Hero/Hero";
+import DestinationsCards from "@/components/Cards/DestinationsCards";
+import WhyChoose from "@/components/WhyChoose/WhyChoose";
 
 export default function Home() {
 
@@ -24,6 +26,8 @@ export default function Home() {
       <div className="bg-gradient-to-b from-[#E3F7FD]   via-white via-40%">
         <Navbar />
         <Hero />
+        <DestinationsCards />
+        <WhyChoose />
       </div>
 
     </div>
