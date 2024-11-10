@@ -6,7 +6,7 @@ import { MenuIcon } from "lucide-react";
 
 const Navbar = () => {
   return (
-    <nav className="container mx-auto pt-[40px] flex justify-between items-center">
+    <nav className="container mx-auto pt-[40px] flex justify-between items-center px-4">
       <Link href="/" className="text-primary text-2xl font-bold">
         Travling!
       </Link>

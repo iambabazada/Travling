@@ -5,7 +5,7 @@ import { ArrowBigLeftIcon, ArrowDownUp, ArrowRightIcon } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="container mx-auto mt-5">
+    <div className="container mx-auto mt-5 px-4">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center" >
         <div data-aos="fade-up" data-aos-delay="100" className="flex flex-col gap-4">
           <h1 className="font-poppins text-3xl lg:text-5xl font-bold">Start your journey by one click, explore beautiful world!</h1>

@@ -8,7 +8,7 @@ import Title from "../Title/Title";
 
 const DestinationsCards = () => {
   return (
-    <section className="container mx-auto mt-12">
+    <section className="container mx-auto mt-12 px-4">
       <Title
         title="Popular Destinations"
         desc="Vacations to make your experience enjoyable in Indonesia!"
